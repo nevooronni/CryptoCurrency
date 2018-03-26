@@ -30,8 +30,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1 id="heading">CryptoCurrency Compare</h1>
         {Object.keys(this.state.cryptos).map((key) => (
-
           <div id="crypto-container">
             <span className="left">{key}</span>
             <span className="right"><NumberFormat value={this.state.cryptos[key].USD} displayType={'text'} decimalPrecision={2} thousandSeperator={true} prefix={'$'} /></span>

@@ -18,3 +18,9 @@ span.left {
 span.right {
   float: right;
 }
+
+#heading {
+  text-align: center;
+  margin-bottom: 35px;
+  color:;
+}
